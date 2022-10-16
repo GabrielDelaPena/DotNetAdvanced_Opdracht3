@@ -1,3 +1,6 @@
+using System.Text.Json;
+using System.Text.Json.Nodes;
+
 namespace Oefening2
 {
     public partial class Form1 : Form
@@ -27,7 +30,6 @@ namespace Oefening2
         public void clearInputPersoon()
         {
             PerToevoegen.Text = "";
-            PerVerwijderen.Text = "";
             PerIsAanwezig.Text = "";
         }
 
@@ -135,20 +137,26 @@ namespace Oefening2
         // Nog niet klaar
         private void PersoonVerwijderen_Click(object sender, EventArgs e)
         {
-            string naam = PerVerwijderen.Text;
-            Persoon persoon = new Persoon(naam);
+            //string naam = PerVerwijderen.Text;
+            //Persoon persoon = new Persoon(naam);
 
-            if (persoon_stapel.IsAanwezig(persoon))
-            {
-                persoon_stapel.Verwijderen(persoon);
-                ContentBox.Text = persoon_stapel.ToString();
-                MessageBox.Show(persoon.ToString() + " is verwijdert.");
-                clearInputPersoon();
-            } else
-            {
-                MessageBox.Show(persoon.ToString() + " bestaat niet.");
-                clearInputPersoon();
-            }
+            //if (persoon_stapel.IsAanwezig(persoon))
+            //{
+            //    persoon_stapel.Verwijderen(persoon);
+            //    ContentBox.Text = persoon_stapel.ToString();
+            //    MessageBox.Show(persoon.ToString() + " is verwijdert.");
+            //    clearInputPersoon();
+            //}
+            //else
+            //{
+            //    MessageBox.Show(persoon.ToString() + " bestaat niet.");
+            //    clearInputPersoon();
+            //}
+            
+            persoon_stapel.verwijderPersoon();
+            ContentBox.Text = persoon_stapel.ToString();
+            clearInputPersoon();
+
         }
 
         // Nog niet klaar
@@ -159,6 +167,16 @@ namespace Oefening2
             bool isAanwezig = persoon_stapel.IsAanwezig(persoon);
             ContentBox.Text = isAanwezig.ToString();
             clearInputPersoon();
+
+            //foreach (var item in (dynamic)(persoon_stapel))
+            //{
+            //    if (item.naam == naam)
+            //    {
+            //        ContentBox.Text = true.ToString();
+            //    }
+            //}
+
+            //clearInputPersoon();
         }
 
         private void ClearPersoon_Click(object sender, EventArgs e)

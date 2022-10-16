@@ -52,10 +52,10 @@
             this.PerIsAanwezig = new System.Windows.Forms.TextBox();
             this.PersoonIsAanwezig = new System.Windows.Forms.Button();
             this.ClearPersoon = new System.Windows.Forms.Button();
-            this.PerVerwijderen = new System.Windows.Forms.TextBox();
             this.PersoonVerwijderen = new System.Windows.Forms.Button();
             this.PerToevoegen = new System.Windows.Forms.TextBox();
             this.PersoonToevoegen = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
@@ -63,9 +63,10 @@
             // 
             // Toevoegen
             // 
-            this.Toevoegen.Location = new System.Drawing.Point(14, 54);
+            this.Toevoegen.Location = new System.Drawing.Point(12, 40);
+            this.Toevoegen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Toevoegen.Name = "Toevoegen";
-            this.Toevoegen.Size = new System.Drawing.Size(94, 29);
+            this.Toevoegen.Size = new System.Drawing.Size(82, 22);
             this.Toevoegen.TabIndex = 0;
             this.Toevoegen.Text = "Toevoegen";
             this.Toevoegen.UseVisualStyleBackColor = true;
@@ -73,23 +74,26 @@
             // 
             // ObejctToevoegen
             // 
-            this.ObejctToevoegen.Location = new System.Drawing.Point(114, 55);
+            this.ObejctToevoegen.Location = new System.Drawing.Point(100, 41);
+            this.ObejctToevoegen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ObejctToevoegen.Name = "ObejctToevoegen";
-            this.ObejctToevoegen.Size = new System.Drawing.Size(179, 27);
+            this.ObejctToevoegen.Size = new System.Drawing.Size(157, 23);
             this.ObejctToevoegen.TabIndex = 1;
             // 
             // ContentBox
             // 
-            this.ContentBox.Location = new System.Drawing.Point(12, 289);
+            this.ContentBox.Location = new System.Drawing.Point(10, 217);
+            this.ContentBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ContentBox.Name = "ContentBox";
-            this.ContentBox.Size = new System.Drawing.Size(1060, 27);
+            this.ContentBox.Size = new System.Drawing.Size(928, 23);
             this.ContentBox.TabIndex = 2;
             // 
             // Verwijderen
             // 
-            this.Verwijderen.Location = new System.Drawing.Point(14, 89);
+            this.Verwijderen.Location = new System.Drawing.Point(12, 67);
+            this.Verwijderen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Verwijderen.Name = "Verwijderen";
-            this.Verwijderen.Size = new System.Drawing.Size(106, 29);
+            this.Verwijderen.Size = new System.Drawing.Size(93, 22);
             this.Verwijderen.TabIndex = 3;
             this.Verwijderen.Text = "Verwijderen";
             this.Verwijderen.UseVisualStyleBackColor = true;
@@ -97,16 +101,18 @@
             // 
             // ObjectVerwijderen
             // 
-            this.ObjectVerwijderen.Location = new System.Drawing.Point(126, 91);
+            this.ObjectVerwijderen.Location = new System.Drawing.Point(110, 68);
+            this.ObjectVerwijderen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ObjectVerwijderen.Name = "ObjectVerwijderen";
-            this.ObjectVerwijderen.Size = new System.Drawing.Size(167, 27);
+            this.ObjectVerwijderen.Size = new System.Drawing.Size(147, 23);
             this.ObjectVerwijderen.TabIndex = 4;
             // 
             // AllesVerwijderen
             // 
-            this.AllesVerwijderen.Location = new System.Drawing.Point(14, 194);
+            this.AllesVerwijderen.Location = new System.Drawing.Point(12, 146);
+            this.AllesVerwijderen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.AllesVerwijderen.Name = "AllesVerwijderen";
-            this.AllesVerwijderen.Size = new System.Drawing.Size(94, 29);
+            this.AllesVerwijderen.Size = new System.Drawing.Size(82, 22);
             this.AllesVerwijderen.TabIndex = 5;
             this.AllesVerwijderen.Text = "Clear";
             this.AllesVerwijderen.UseVisualStyleBackColor = true;
@@ -114,9 +120,10 @@
             // 
             // IsAanwezig
             // 
-            this.IsAanwezig.Location = new System.Drawing.Point(14, 124);
+            this.IsAanwezig.Location = new System.Drawing.Point(12, 93);
+            this.IsAanwezig.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.IsAanwezig.Name = "IsAanwezig";
-            this.IsAanwezig.Size = new System.Drawing.Size(106, 29);
+            this.IsAanwezig.Size = new System.Drawing.Size(93, 22);
             this.IsAanwezig.TabIndex = 6;
             this.IsAanwezig.Text = "IsAanwezig";
             this.IsAanwezig.UseVisualStyleBackColor = true;
@@ -124,25 +131,27 @@
             // 
             // ObjectIsAanwezig
             // 
-            this.ObjectIsAanwezig.Location = new System.Drawing.Point(126, 126);
+            this.ObjectIsAanwezig.Location = new System.Drawing.Point(110, 94);
+            this.ObjectIsAanwezig.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ObjectIsAanwezig.Name = "ObjectIsAanwezig";
-            this.ObjectIsAanwezig.Size = new System.Drawing.Size(167, 27);
+            this.ObjectIsAanwezig.Size = new System.Drawing.Size(147, 23);
             this.ObjectIsAanwezig.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 23);
+            this.label1.Location = new System.Drawing.Point(11, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 20);
+            this.label1.Size = new System.Drawing.Size(99, 15);
             this.label1.TabIndex = 8;
             this.label1.Text = "Stapel van strings";
             // 
             // IntToevoegen
             // 
-            this.IntToevoegen.Location = new System.Drawing.Point(372, 55);
+            this.IntToevoegen.Location = new System.Drawing.Point(326, 41);
+            this.IntToevoegen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.IntToevoegen.Name = "IntToevoegen";
-            this.IntToevoegen.Size = new System.Drawing.Size(94, 29);
+            this.IntToevoegen.Size = new System.Drawing.Size(82, 22);
             this.IntToevoegen.TabIndex = 9;
             this.IntToevoegen.Text = "Toevoegen";
             this.IntToevoegen.UseVisualStyleBackColor = true;
@@ -150,9 +159,10 @@
             // 
             // IntVerwijderen
             // 
-            this.IntVerwijderen.Location = new System.Drawing.Point(372, 91);
+            this.IntVerwijderen.Location = new System.Drawing.Point(326, 68);
+            this.IntVerwijderen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.IntVerwijderen.Name = "IntVerwijderen";
-            this.IntVerwijderen.Size = new System.Drawing.Size(106, 29);
+            this.IntVerwijderen.Size = new System.Drawing.Size(93, 22);
             this.IntVerwijderen.TabIndex = 10;
             this.IntVerwijderen.Text = "Verwijderen";
             this.IntVerwijderen.UseVisualStyleBackColor = true;
@@ -160,9 +170,10 @@
             // 
             // IntIsAanwezig
             // 
-            this.IntIsAanwezig.Location = new System.Drawing.Point(372, 126);
+            this.IntIsAanwezig.Location = new System.Drawing.Point(326, 94);
+            this.IntIsAanwezig.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.IntIsAanwezig.Name = "IntIsAanwezig";
-            this.IntIsAanwezig.Size = new System.Drawing.Size(106, 29);
+            this.IntIsAanwezig.Size = new System.Drawing.Size(93, 22);
             this.IntIsAanwezig.TabIndex = 11;
             this.IntIsAanwezig.Text = "IsAanwezig";
             this.IntIsAanwezig.UseVisualStyleBackColor = true;
@@ -171,17 +182,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(372, 23);
+            this.label2.Location = new System.Drawing.Point(326, 17);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 20);
+            this.label2.Size = new System.Drawing.Size(106, 15);
             this.label2.TabIndex = 15;
             this.label2.Text = "Stapel van integers";
             // 
             // ClearInt
             // 
-            this.ClearInt.Location = new System.Drawing.Point(372, 194);
+            this.ClearInt.Location = new System.Drawing.Point(326, 146);
+            this.ClearInt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ClearInt.Name = "ClearInt";
-            this.ClearInt.Size = new System.Drawing.Size(94, 29);
+            this.ClearInt.Size = new System.Drawing.Size(82, 22);
             this.ClearInt.TabIndex = 16;
             this.ClearInt.Text = "Clear";
             this.ClearInt.UseVisualStyleBackColor = true;
@@ -189,30 +201,34 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(472, 58);
+            this.numericUpDown1.Location = new System.Drawing.Point(413, 44);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(162, 27);
+            this.numericUpDown1.Size = new System.Drawing.Size(142, 23);
             this.numericUpDown1.TabIndex = 17;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(484, 93);
+            this.numericUpDown2.Location = new System.Drawing.Point(424, 70);
+            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(150, 27);
+            this.numericUpDown2.Size = new System.Drawing.Size(131, 23);
             this.numericUpDown2.TabIndex = 18;
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(484, 128);
+            this.numericUpDown3.Location = new System.Drawing.Point(424, 96);
+            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(150, 27);
+            this.numericUpDown3.Size = new System.Drawing.Size(131, 23);
             this.numericUpDown3.TabIndex = 19;
             // 
             // KopieString
             // 
-            this.KopieString.Location = new System.Drawing.Point(14, 159);
+            this.KopieString.Location = new System.Drawing.Point(12, 119);
+            this.KopieString.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.KopieString.Name = "KopieString";
-            this.KopieString.Size = new System.Drawing.Size(94, 29);
+            this.KopieString.Size = new System.Drawing.Size(82, 22);
             this.KopieString.TabIndex = 20;
             this.KopieString.Text = "Kopie";
             this.KopieString.UseVisualStyleBackColor = true;
@@ -220,9 +236,10 @@
             // 
             // IntKopie
             // 
-            this.IntKopie.Location = new System.Drawing.Point(372, 159);
+            this.IntKopie.Location = new System.Drawing.Point(326, 119);
+            this.IntKopie.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.IntKopie.Name = "IntKopie";
-            this.IntKopie.Size = new System.Drawing.Size(94, 29);
+            this.IntKopie.Size = new System.Drawing.Size(82, 22);
             this.IntKopie.TabIndex = 21;
             this.IntKopie.Text = "Kopie";
             this.IntKopie.UseVisualStyleBackColor = true;
@@ -230,9 +247,10 @@
             // 
             // PersoonKopie
             // 
-            this.PersoonKopie.Location = new System.Drawing.Point(780, 159);
+            this.PersoonKopie.Location = new System.Drawing.Point(682, 119);
+            this.PersoonKopie.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PersoonKopie.Name = "PersoonKopie";
-            this.PersoonKopie.Size = new System.Drawing.Size(94, 29);
+            this.PersoonKopie.Size = new System.Drawing.Size(82, 22);
             this.PersoonKopie.TabIndex = 30;
             this.PersoonKopie.Text = "Kopie";
             this.PersoonKopie.UseVisualStyleBackColor = true;
@@ -241,24 +259,26 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(779, 23);
+            this.label3.Location = new System.Drawing.Point(682, 17);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 20);
+            this.label3.Size = new System.Drawing.Size(113, 15);
             this.label3.TabIndex = 29;
             this.label3.Text = "Stapel van personen";
             // 
             // PerIsAanwezig
             // 
-            this.PerIsAanwezig.Location = new System.Drawing.Point(892, 126);
+            this.PerIsAanwezig.Location = new System.Drawing.Point(780, 94);
+            this.PerIsAanwezig.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PerIsAanwezig.Name = "PerIsAanwezig";
-            this.PerIsAanwezig.Size = new System.Drawing.Size(167, 27);
+            this.PerIsAanwezig.Size = new System.Drawing.Size(147, 23);
             this.PerIsAanwezig.TabIndex = 28;
             // 
             // PersoonIsAanwezig
             // 
-            this.PersoonIsAanwezig.Location = new System.Drawing.Point(780, 124);
+            this.PersoonIsAanwezig.Location = new System.Drawing.Point(682, 93);
+            this.PersoonIsAanwezig.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PersoonIsAanwezig.Name = "PersoonIsAanwezig";
-            this.PersoonIsAanwezig.Size = new System.Drawing.Size(106, 29);
+            this.PersoonIsAanwezig.Size = new System.Drawing.Size(93, 22);
             this.PersoonIsAanwezig.TabIndex = 27;
             this.PersoonIsAanwezig.Text = "IsAanwezig";
             this.PersoonIsAanwezig.UseVisualStyleBackColor = true;
@@ -266,26 +286,21 @@
             // 
             // ClearPersoon
             // 
-            this.ClearPersoon.Location = new System.Drawing.Point(780, 194);
+            this.ClearPersoon.Location = new System.Drawing.Point(682, 146);
+            this.ClearPersoon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ClearPersoon.Name = "ClearPersoon";
-            this.ClearPersoon.Size = new System.Drawing.Size(94, 29);
+            this.ClearPersoon.Size = new System.Drawing.Size(82, 22);
             this.ClearPersoon.TabIndex = 26;
             this.ClearPersoon.Text = "Clear";
             this.ClearPersoon.UseVisualStyleBackColor = true;
             this.ClearPersoon.Click += new System.EventHandler(this.ClearPersoon_Click);
             // 
-            // PerVerwijderen
-            // 
-            this.PerVerwijderen.Location = new System.Drawing.Point(892, 91);
-            this.PerVerwijderen.Name = "PerVerwijderen";
-            this.PerVerwijderen.Size = new System.Drawing.Size(167, 27);
-            this.PerVerwijderen.TabIndex = 25;
-            // 
             // PersoonVerwijderen
             // 
-            this.PersoonVerwijderen.Location = new System.Drawing.Point(780, 89);
+            this.PersoonVerwijderen.Location = new System.Drawing.Point(682, 67);
+            this.PersoonVerwijderen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PersoonVerwijderen.Name = "PersoonVerwijderen";
-            this.PersoonVerwijderen.Size = new System.Drawing.Size(106, 29);
+            this.PersoonVerwijderen.Size = new System.Drawing.Size(93, 22);
             this.PersoonVerwijderen.TabIndex = 24;
             this.PersoonVerwijderen.Text = "Verwijderen";
             this.PersoonVerwijderen.UseVisualStyleBackColor = true;
@@ -293,32 +308,43 @@
             // 
             // PerToevoegen
             // 
-            this.PerToevoegen.Location = new System.Drawing.Point(880, 55);
+            this.PerToevoegen.Location = new System.Drawing.Point(770, 41);
+            this.PerToevoegen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PerToevoegen.Name = "PerToevoegen";
-            this.PerToevoegen.Size = new System.Drawing.Size(179, 27);
+            this.PerToevoegen.Size = new System.Drawing.Size(157, 23);
             this.PerToevoegen.TabIndex = 23;
             // 
             // PersoonToevoegen
             // 
-            this.PersoonToevoegen.Location = new System.Drawing.Point(780, 54);
+            this.PersoonToevoegen.Location = new System.Drawing.Point(682, 40);
+            this.PersoonToevoegen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PersoonToevoegen.Name = "PersoonToevoegen";
-            this.PersoonToevoegen.Size = new System.Drawing.Size(94, 29);
+            this.PersoonToevoegen.Size = new System.Drawing.Size(82, 22);
             this.PersoonToevoegen.TabIndex = 22;
             this.PersoonToevoegen.Text = "Toevoegen";
             this.PersoonToevoegen.UseVisualStyleBackColor = true;
             this.PersoonToevoegen.Click += new System.EventHandler(this.PersoonToevoegen_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(781, 72);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(134, 15);
+            this.label4.TabIndex = 31;
+            this.label4.Text = "Verwijder laatse Persoon";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1084, 328);
+            this.ClientSize = new System.Drawing.Size(948, 246);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.PersoonKopie);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.PerIsAanwezig);
             this.Controls.Add(this.PersoonIsAanwezig);
             this.Controls.Add(this.ClearPersoon);
-            this.Controls.Add(this.PerVerwijderen);
             this.Controls.Add(this.PersoonVerwijderen);
             this.Controls.Add(this.PerToevoegen);
             this.Controls.Add(this.PersoonToevoegen);
@@ -341,6 +367,7 @@
             this.Controls.Add(this.ContentBox);
             this.Controls.Add(this.ObejctToevoegen);
             this.Controls.Add(this.Toevoegen);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -377,9 +404,9 @@
         private TextBox PerIsAanwezig;
         private Button PersoonIsAanwezig;
         private Button ClearPersoon;
-        private TextBox PerVerwijderen;
         private Button PersoonVerwijderen;
         private TextBox PerToevoegen;
         private Button PersoonToevoegen;
+        private Label label4;
     }
 }

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Oefening2
 {
-    internal class Stapel<T>
+    public class Stapel<T>
     {
         List<T> stapel = new List<T>();
 
+        // Gevraagde methode's voor de opdracht
         public void Toevoegen(T o)
         {
             stapel.Add(o);
@@ -55,5 +56,13 @@ namespace Oefening2
             return (Stapel<T>)this.MemberwiseClone();
         }
 
+        // Apart methode's voor Klasse Persoon
+        public T verwijderPersoon()
+        {
+            T teller = stapel[stapel.Count - 1];
+            stapel.RemoveAt(stapel.Count - 1);
+            MessageBox.Show("Laatse Persoon is verwijderd.");
+            return teller;
+        }
     }
 }
