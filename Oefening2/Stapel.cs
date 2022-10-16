@@ -59,9 +59,13 @@ namespace Oefening2
         // Apart methode's voor Klasse Persoon
         public T verwijderPersoon()
         {
+            if (stapel.Count <= 0)
+            {
+                throw new Exception();
+            }
             T teller = stapel[stapel.Count - 1];
             stapel.RemoveAt(stapel.Count - 1);
-            MessageBox.Show("Laatse Persoon is verwijderd.");
+            MessageBox.Show("Laatste Persoon is verwijderd.");
             return teller;
         }
     }

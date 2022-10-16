@@ -134,7 +134,6 @@ namespace Oefening2
             clearInputPersoon();
         }
 
-        // Nog niet klaar
         private void PersoonVerwijderen_Click(object sender, EventArgs e)
         {
             //string naam = PerVerwijderen.Text;
